@@ -1,0 +1,92 @@
+ul{
+    background: #d97e8e;
+    padding: 10px;
+    list-style-type: circle;
+}
+ol{
+    background: aqua;
+    padding:5px;
+    list-style-type: lower-alpha;
+}
+ul li{
+    background: #e8a5b1;
+    padding: 5px;
+    margin-left: 35px;
+}
+ol li{
+    background: #93e8e8;
+    margin: 10px;
+}
+table
+{
+    border-collapse: collapse;
+    /*gop 2 vien thanh 1*/
+    width: 100%;
+}
+table,tr,th,td{
+    border:1px solid black;
+}
+th{
+    text-align: center;
+    /*chinh trai phai*/
+    /*background-color: #8ca8dc;*/
+}
+td{
+    vertical-align: top;/*chinh tren duoi*/
+    height:100px;
+    padding: 10px; /*khoang cach den vien*/
+    color: #d81818;
+}
+tr:nth-child(even){background-color: #d97e8e
+}
+tr:nth-child(odd){background-color: #93e8e8}
+div{
+    width:300px;
+
+    /*border: 1px solid black;*/
+    padding: 10px;
+    text-align: justify;
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-indent: 20px;
+    /*lui dong dau tien*/
+    /*khoang cach gia cac chu*/
+    line-height: 30px;
+    /*khoang cach cac dong*/
+    font-family: "Times New Roman",Times,serif;
+    font-style: italic;
+    /*nghieng*/
+    font-variant: small-caps;
+    /*truong thanh hoa nhung nho hon*/
+    border: 5px inset red;
+}
+a{
+    text-decoration:none;
+}
+p{
+    /*direction: rtl;*/
+}
+body{
+    font-family: "Times New Roman";
+    font-size: 100%;
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.-RaIoDl0_uGYZ7MKm473XwHaFj?pid=Api&P=0&h=220");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*margin-right: 200px;*/
+    /*background-attachment: fixed;*/
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+button.btn:hover{
+    background-color: #d81818;
+}
